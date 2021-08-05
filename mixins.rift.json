@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "live.rift.mixin.client",
+  "refmap": "mixins.rift.refmap.json",
+  "client": [
+    "MixinEntityPlayer",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinGuiScreen",
+    "MixinLayerArmorBase",
+    "MixinMinecraft",
+    "MixinNetHandlerPlayClient",
+    "MixinNetworkManager",
+    "MixinTabList",
+    "MixinRenderPlayer",
+    "MixinAbstractClientPlayer",
+    "MixinEntityLivingBase",
+    "MixinRenderGlobal",
+    "MixinEntity",
+    "MixinPlayerControllerMP",
+    "MixinRenderLivingBase",
+    "MixinGuiIngame",
+    "MixinWorld",
+    "MixinItemRenderer"
+  ]
+}
